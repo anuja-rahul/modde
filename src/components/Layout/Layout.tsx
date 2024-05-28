@@ -1,13 +1,16 @@
+import Footer from "./Footer/Footer";
+import NavBar from "./Navbar/NavBar";
+
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <>
-      <h1>Header</h1>
+    <section className="h-auto w-full">
+      <NavBar />
       {children}
-      <h1>Footer</h1>
-    </>
+      <Footer />
+    </section>
   );
 }

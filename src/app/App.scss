@@ -1,13 +1,8 @@
 @import "animate.css/animate";
 
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url(./../assets/fonts/helvetica-neu.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Coolvetica";
-  src: url(./../assets/fonts/CoolveticaRg-Regular.woff2) format("woff2");
+  font-family: "DM Sans Regular";
+  src: url(./assets/fonts/DMSans_24pt-Regular.ttf) format("ttf");
 }
 
 * {
@@ -17,9 +12,25 @@
   //   height: 0;
   // }
   scroll-behavior: smooth !important;
+
+  --primary: #36194b;
+  --primarySecond: #854CAD;
+  --primaryThird: #b57edc;
+  --primaryFourth: #e0b0ff;
+  --primaryFifth: #f8eeff;
+  --secondary: #4b4b4b;
+  --secondaryFirst: #a0a0a0;
+  --secondarySecond: #e2dce4;
 }
 
 ::selection {
-  background-color: #ffcb74;
-  color: #181818;
+  background-color: rgba(54, 25, 75, 0.5);
+  color: #000;
+}
+
+html,
+body {
+  background: var(--primaryFifth) !important;
+  min-height: 100vh;
+  font-family: "DM Sans Regular";
 }
