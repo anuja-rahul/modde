@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div className="h-[150px] w-screen z-[999] relative">
       <div className="content flex h-full w-full flex-col items-center justify-evenly">
-        <div className="footer-links mt-4 flex w-3/5 flex-col items-center justify-evenly text-primary md:flex-row">
+        <div className="footer-links mt-4 flex w-3/5 flex-col items-center justify-evenly text-primary md:flex-row font-bold">
           <Link href="/">MODDE</Link>
           <Link href="/">Contact</Link>
           <Link href="/">Size Guide</Link>

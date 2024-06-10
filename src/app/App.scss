@@ -14,7 +14,7 @@
   scroll-behavior: smooth !important;
 
   --primary: #36194b;
-  --primarySecond: #854CAD;
+  --primarySecond: #854cad;
   --primaryThird: #b57edc;
   --primaryFourth: #e0b0ff;
   --primaryFifth: #f8eeff;
@@ -33,4 +33,9 @@ body {
   background: var(--primaryFifth) !important;
   min-height: 100vh;
   font-family: "DM Sans Regular" !important;
+}
+
+* {
+  font-family: "DM Sans Regular";
+  overflow-x: hidden !important;
 }

@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "MODDE",
   description: "World's first ever AI assisted fashion site.",
+  icons: {
+    icon: "./favicon.png", //public path
+  },
 };
 
 export default function RootLayout({
